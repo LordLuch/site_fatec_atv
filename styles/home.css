@@ -41,6 +41,7 @@ nav > .mobile {
 nav > ul > li {
   display: inline-block;
   line-height: 60px;
+  margin: 0 5px;
 }
 
 nav > ul > li:hover {
@@ -62,12 +63,14 @@ main {
   align-items: center;
   position: relative;
   text-align: center;
+  margin-top: 40px;
   min-height: calc(100vh - 180px);
 }
 .card {
   border-radius: 5px;
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
   padding: 30px;
+  margin: 20px;
   width: 100%;
   transition: all 0.3s ease-out;
   height: 300px;
